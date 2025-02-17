@@ -1,0 +1,42 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Downloaded video files
+*.mp4
+*.mov
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System files
+.DS_Store
+Thumbs.db
+
+# npm debug logs
+npm-debug.log*
+
+# Local development files
+dist/
+build/
+
+# OS-specific files
+*.swp
+*.swo
+*~

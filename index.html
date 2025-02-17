@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Downloader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>YouTube <span class="highlight">Downloader</span></h1>
+    
+    <div class="input-group">
+      <label for="videoUrl">Enter Video URL:</label>
+      <input type="text" id="videoUrl" placeholder="Paste video link here">
+    </div>
+
+    <div class="input-group">
+      <label for="formatSelect">Select Format:</label>
+      <select id="formatSelect">
+        <option value="mp4">MP4</option>
+        <option value="mov">MOV</option>
+      </select>
+    </div>
+
+    <button id="downloadButton">Download Video</button>
+  </div>
+
+  <footer>
+    <a href="https://github.com/leo-hart" target="_blank">Created by Leo Hart</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
